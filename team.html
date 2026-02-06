@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AP Company — Staff List</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 50px;
+      background: #050005;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    header a.back {
+      color: #8c00ff;
+      text-decoration: none;
+      font-weight: 600;
+      margin-right: 20px;
+      transition: color 0.3s;
+    }
+
+    header a.back:hover {
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #fff;
+      letter-spacing: 3px;
+    }
+
+    main {
+      padding: 100px 50px 50px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .page-title {
+      font-size: 3rem;
+      color: #8c00ff;
+      margin-bottom: 50px;
+      text-shadow: 0 0 15px rgba(140,0,255,0.8);
+    }
+
+    .staff-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .staff-card {
+      background: #111;
+      border: 2px solid #8c00ff;
+      border-radius: 12px;
+      padding: 20px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.5s ease;
+    }
+
+    .staff-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(140,0,255,0.5);
+      cursor: pointer;
+    }
+
+    .staff-card h3 {
+      margin: 0 0 10px 0;
+      color: #fff;
+      font-size: 1.4rem;
+    }
+
+    .staff-card span {
+      display: block;
+      color: #aaa;
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+
+    /* Section Titles */
+    .section-title {
+      font-size: 2rem;
+      color: #8c00ff;
+      margin: 40px 0 20px;
+      text-shadow: 0 0 10px rgba(140,0,255,0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="back">← برگشت</a>
+    <h1>AP Company</h1>
+  </header>
+
+  <main>
+    <h2 class="page-title">Staff List</h2>
+
+    <!-- مدیر عامل -->
+    <div class="section-title">مدیر عامل</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>MerVist</h3></div>
+    </div>
+
+    <!-- مدیر اجرایی -->
+    <div class="section-title">مدیر اجرایی</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>Mohabaty</h3></div>
+    </div>
+
+    <!-- مدیر مالی -->
+    <div class="section-title">مدیر مالی</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>MrStable</h3><span>mahan90nn (MC Partner)</span></div>
+      <div class="staff-card"><h3>Mohammad_Amin_Mire_I</h3><span>CN Partner</span></div>
+    </div>
+
+    <!-- مدیر فنی -->
+    <div class="section-title">مدیر فنی</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>Arash2233</h3></div>
+    </div>
+
+    <!-- توسعه دهنده -->
+    <div class="section-title">توسعه‌دهنده</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>Sohbn</h3><span>Discord Owner and MC Manager</span></div>
+      <div class="staff-card"><h3>KianLemon</h3><span>MC H-Dev</span></div>
+    </div>
+
+    <!-- کارکنان -->
+    <div class="section-title">کارکنان</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>Mahdyar10000</h3><span>Roblox Tester</span></div>
+      <div class="staff-card"><h3>Akhil1100</h3><span>MC Tester</span></div>
+      <div class="staff-card"><h3>arsalangamer7</h3><span>MC Junior Moderator, MC Builder</span></div>
+      <div class="staff-card"><h3>Draxylonx</h3><span>MC Junior Moderator, MC Builder</span></div>
+      <div class="staff-card"><h3>JUMANJL</h3><span>MC Admin</span></div>
+    </div>
+
+    <!-- زیرمجموعه ها -->
+    <div class="section-title">زیرمجموعه‌ها</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>MineCraft Server (Official)</h3><span>@underapcraft</span></div>
+      <div class="staff-card"><h3>Roblox</h3><span>soon..</span></div>
+      <div class="staff-card"><h3>SiGMA SHOP</h3><span>@sigmashopiran</span></div>
+      <div class="staff-card"><h3>Partner</h3><span>@undermoonxcraft (mahan90nn)</span></div>
+      <div class="staff-card"><h3>Hadaf</h3><span>Roblox Server</span></div>
+      <div class="staff-card"><h3>Client Minecraft</h3><span>AP Client</span></div>
+      <div class="staff-card"><h3>Launcher Minecraft</h3><span>AP Launcher</span></div>
+    </div>
+
+    <!-- صلح با -->
+    <div class="section-title">صلح با</div>
+    <div class="staff-container">
+      <div class="staff-card"><h3>SilverMine</h3></div>
+      <div class="staff-card"><h3>GodXTerme</h3></div>
+      <div class="staff-card"><h3>NixelCraft</h3></div>
+      <div class="staff-card"><h3>MoonXCraft</h3></div>
+      <div class="staff-card"><h3>IranMulti</h3></div>
+    </div>
+  </main>
+
+  <script>
+    // افکت اسلو موشن برای کارت‌ها
+    const cards = document.querySelectorAll('.staff-card');
+    cards.forEach((card, i) => {
+      setTimeout(() => {
+        card.style.opacity = 1;
+        card.style.transform = 'translateY(0)';
+      }, i * 200); // هر کارت 0.2 ثانیه بعد از قبلی ظاهر میشه
+    });
+  </script>
+
+</body>
+</html>
